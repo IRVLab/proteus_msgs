@@ -1,0 +1,3 @@
+float32 distance_ratio
+float32 best_guess
+float32 confidence

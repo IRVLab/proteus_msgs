@@ -1,0 +1,13 @@
+std_msgs/Header header
+
+string diver_id
+time last_seen
+bool currently_seen
+float32 estimate_confidence
+
+proteus_msgs/RelativePosition location
+
+darknet_ros_msgs/BoundingBox latest_bbox
+body_pose_msgs/HumanPoseEstimate latest_pose
+darknet_ros_msgs/BoundingBox filtered_bbox
+body_pose_msgs/HumanPoseEstimate filtered_pose

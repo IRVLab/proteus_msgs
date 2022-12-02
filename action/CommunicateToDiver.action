@@ -1,0 +1,9 @@
+string content # Either dynamic content or a symbol ID
+bool dynamic # Indicates whether the content is dynamic or not
+uint32 priority # 0-10, increasing priority. Priority 10 should only be used in the event of danger to life.
+string target_diver
+---
+bool response_waiting
+float32 confidence_seen
+---
+string vectors_used
