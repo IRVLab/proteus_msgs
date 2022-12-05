@@ -3,7 +3,7 @@ std_msgs/Header header
 string diver_id
 time last_seen
 bool currently_seen
-float32 estimate_confidence
+float32 estimated_confidence
 
 proteus_msgs/RelativePosition location
 
