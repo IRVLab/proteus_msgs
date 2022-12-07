@@ -1,5 +1,3 @@
-std_msgs/Header header
-
 string diver_id
 time last_seen
 bool currently_seen
