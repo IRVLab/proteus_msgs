@@ -1,5 +1,2 @@
-geometry_msgs/Point center_point_abs
 geometry_msgs/Point center_point_rel
-geometry_msgs/Transform best_guess_trans
 proteus_msgs/Pseudodistance distance
-float32 confidence
