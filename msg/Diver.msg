@@ -3,8 +3,9 @@ time last_seen
 bool currently_seen
 float32 estimated_confidence
 
-proteus_msgs/RelativePosition location
+proteus_msgs/RelativePosition relative_position
 
+std_msgs/Header latest_img_header
 darknet_ros_msgs/BoundingBox latest_bbox
 body_pose_msgs/HumanPoseEstimate latest_pose
 darknet_ros_msgs/BoundingBox filtered_bbox

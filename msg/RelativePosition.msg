@@ -1,2 +1,3 @@
 geometry_msgs/Point center_point_rel
+geometry_msgs/Point center_point_abs
 proteus_msgs/Pseudodistance distance
