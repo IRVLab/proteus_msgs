@@ -5,6 +5,7 @@ uint32 priority # 0-10, increasing priority. Priority 10 should only be used in 
 string target_diver
 ---
 string[] vectors_used
+string selection_criteria
 ---
 bool response_waiting
 float32 confidence_seen
