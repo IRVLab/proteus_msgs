@@ -1,0 +1,3 @@
+string class_name
+int16 class_id
+float32 confidence
